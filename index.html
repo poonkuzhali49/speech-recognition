@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Memos</h1>
+        <div class="recorder">
+            <button id="recordBtn">🎤 Record</button>
+            <button id="stopBtn" disabled>⏹ Stop</button>
+            <audio id="audioPlayback" controls hidden></audio>
+        </div>
+        <div class="notes-list" id="notesList"></div>
+    </div>
+    <script src="src/app.js"></script>
+</body>
+</html>
